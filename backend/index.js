@@ -21,10 +21,10 @@ dotenv.config();
 const corsOptions = {
     origin: function(origin, callback) {
         const allowedOrigins = [
-            'https://smart-home-99z7.onrender.com',
-            'http://localhost:3000',
-            'http://localhost:3002',
-            'http://localhost:3001'
+            'https://home-manager-pi.vercel.app',
+            'https://home-manager-pi.vercel.app',
+            'https://home-manager-pi.vercel.app',
+            'https://home-manager-pi.vercel.app:'
         ];
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true);
